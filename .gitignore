@@ -29,4 +29,6 @@ build/Release
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
 node_modules
 
-
+# JavaScript is most likely generated, and we don't really want to commit that.
+*.js
+*.js.map
