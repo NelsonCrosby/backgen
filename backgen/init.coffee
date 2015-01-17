@@ -1,6 +1,10 @@
 fs = require 'fs'
 path = require 'path'
 
+require './fields'
+
+Model = require './Model'
+
 module.exports = (rootdir) ->
     apidir = path.join rootdir, 'api'
     
@@ -17,6 +21,7 @@ module.exports = (rootdir) ->
         data = fs.readFileSync modelPath
         modelData = JSON.parse data
         modelData._info.path = modelPath
-        models[modelName] = modelData
+        
+        models[modelName] = new Model modelData
 
     return models
