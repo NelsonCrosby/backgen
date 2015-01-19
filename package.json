@@ -1,27 +1,27 @@
 {
-    "name": "backgen",
-    "version": "0.0.1-dev",
-    "description": "Generate a database and REST API backend",
-    "main": "index.js",
-    "dependencies": {
-        "mout": "^0.11.0"
-    },
-    "devDependencies": {
-        "grunt": "^0.4.5",
-        "grunt-contrib-coffee": "^0.12.0",
-        "grunt-contrib-watch": "^0.6.1"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/NelsonCrosby/backgen.git"
-    },
-    "author": "Nelson Crosby <nc@sourcecomb.com>",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/NelsonCrosby/backgen/issues"
-    },
-    "homepage": "https://github.com/NelsonCrosby/backgen"
+  "name": "backgen",
+  "version": "0.0.1-dev",
+  "description": "Generate a database and REST API backend",
+  "main": "index.js",
+  "dependencies": {
+    "mout": "^0.11.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NelsonCrosby/backgen.git"
+  },
+  "author": "Nelson Crosby <nc@sourcecomb.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NelsonCrosby/backgen/issues"
+  },
+  "homepage": "https://github.com/NelsonCrosby/backgen"
 }
